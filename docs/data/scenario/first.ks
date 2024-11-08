@@ -7,7 +7,7 @@
 
 「ポーカー~期待値を追え~」[l][r]
 
-[bg storage=image(1).jpg time=500]
+[bg storage=good.png time=500]
 
 あなたは$1-3のキャッシュゲームを遊んでいます。[l][r]
 あなたのスタックは$300です。[l][r]
@@ -24,7 +24,7 @@ COのプレイヤーが＄10のベット。[l][r]
 
 [cm]
 
-[bg storage=image(1).jpg time=500]
+[bg storage=good.png time=500]
 
 ナイス期待値！[l][r]
 正しいプレイです。[l][r]
@@ -40,7 +40,7 @@ COのプレイヤーがコールして1対1に[l][r]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=bad.png time=500]
 
 [cm]
 
@@ -52,7 +52,7 @@ COのプレイヤーがコールして1対1に[l][r]
 
 *tag_slee
 
-[bg storage=image(1).jpg time=500]
+[bg storage=good.png time=500]
 
 ナイス期待値！[l][r]
 正しいプレイです。[l][r]
@@ -74,7 +74,7 @@ COのプレイヤーがコール[l][r]
 [s]
 
 *tag_good
-
+[bg storage=good.png time=500]
 正しいプレイです。[l][r]
 オールインをして勝った場合は持ち金が2倍になります。[l][r]
 しかし、勝つにはフラッシュ、ストレートのいずれかが完成する必要があり[l][r]
