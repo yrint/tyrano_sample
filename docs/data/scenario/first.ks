@@ -7,6 +7,8 @@
 
 「ポーカー~期待値を追え~」[l][r]
 
+[bg storage=image(1).jpg time=500]
+
 あなたは$1-3のキャッシュゲームを遊んでいます。[l][r]
 あなたのスタックは$300です。[l][r]
 自分のポジションはBBである。[l][r]
@@ -22,7 +24,7 @@ COのプレイヤーが＄10のベット。[l][r]
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=image(1).jpg time=500]
 
 ナイス期待値！[l][r]
 正しいプレイです。[l][r]
@@ -49,6 +51,8 @@ COのプレイヤーがコールして1対1に[l][r]
 [jump target=*start]
 
 *tag_slee
+
+[bg storage=image(1).jpg time=500]
 
 ナイス期待値！[l][r]
 正しいプレイです。[l][r]
