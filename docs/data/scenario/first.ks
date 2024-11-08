@@ -1,23 +1,21 @@
 *start
 
-[title name=""怒れセリヌンティウス"]
+[title name="ポーカー~期待値を追え~"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ポーカー~期待値を追え~」[l][r]
 
-メロスは激怒した。[l][r]
+あなたは$1-3のキャッシュゲームを遊んでいます。[l][r]
+あなたのスタックは$300です。[l][r]
+自分のポジションはBBである。[l][r]
+プリフロップで手元に♧10♧Jが配られた。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+COのプレイヤーが＄10のベット。[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →$30のベット [endlink][r]
+[link target=*tag_run] →フォールド [endlink][r]
 [s]
 
 *tag_sleep
@@ -26,21 +24,57 @@
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+ナイス期待値！[l][r]
+正しいプレイです。[l][r]
+COのプレイヤーがコールして1対1に[l][r]
 
-【 BAD END 】[l][cm]
+フロップで開かれたカードは♧9♡8♧Kです。[l][r]
 
-[jump target=*start]
+あなたのプレイは[l][r]
+[link target=*tag_slee] →$20のベット [endlink][r]
+[link target=*tag_run] →チェック [endlink][r]
+[link target=*tag_run] →フォールド [endlink][r]
+[s]
 
 *tag_run
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+期待値を逃しました。[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_slee
+
+ナイス期待値！[l][r]
+正しいプレイです。[l][r]
+
+COのプレイヤーがコール[l][r]
+
+ターンのカードは♦6[l][r]
+あなたはチェックで回します。[l][r]
+するとここで相手からまさかのオールイン[l][r]
+
+あなたの選択肢はオールインかフォールド[l][r]
+今現在、あなたの手札は何にも役が出来ていない最弱状態[l][r]
+しかし、最後の1枚で♧がくればフラッシュが完成[l][r]
+７かQがくればストレートが完成し勝てる確率が高い！[l][r]
+
+あなたは[l][r]
+[link target=*tag_run] →オールイン [endlink][r]
+[link target=*tag_good] →フォールド [endlink][r]
+[s]
+
+*tag_good
+
+正しいプレイです。[l][r]
+オールインをして勝った場合は持ち金が2倍になります。[l][r]
+しかし、勝つにはフラッシュ、ストレートのいずれかが完成する必要があり[l][r]
+これらが完成する確率は50%よりも低いです。[l][r]
+よって、期待値を考えるとフォールドが正解です。[l][r]
 
 [jump target=*start]
